@@ -1,0 +1,134 @@
+
+/* Estilo para el cuerpo de la página con color de fondo */
+body {
+    background-color: #f2f2f2; /* Color de fondo */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Esto centra verticalmente el contenido en la ventana */
+    text-align: center; /* Esto centra horizontalmente el texto */
+    
+}
+
+/* Estilo para el encabezado h1 */
+h1 {
+    font-size: 52px;
+    color: #122b3e;
+    margin: 10px 10px 20px 10px;
+    line-height: 1;
+}
+
+.parrafo1 {
+    font-size: 16px;
+    color: #9ca3af;
+    margin: 400px 20px 10px 20px;
+}
+
+/* Estilo para el párrafo */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #313133;
+    margin: 0px 50px 20px 50px;
+}
+
+/* Aplicar la fuente Poppins a todos los elementos de texto */
+body, h1, h6, p, button, .parrafo1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Estilo para el contenedor de la imagen */
+.image-container {
+    text-align: center; /* Centra la imagen horizontalmente */
+}
+
+/* Estilo para la imagen */
+.image-container img {
+    max-width: 60%; /* Limita el ancho de la imagen al 100% del ancho del contenedor */
+    height: auto; /* Mantén la relación de aspecto original de la imagen */
+    margin: 0 auto;
+    top: 50px;
+    bottom: 50px;
+}
+
+/* Estilo para el botón */
+button {
+    background-color: #0091ff; /* Color de fondo azul */
+    color: #fff; /* Color del texto en blanco */
+    font-size: 24px; /* Tamaño de fuente más grande */
+    padding: 10px 30px; /* Espaciado interno más grande para hacer el botón más grande */
+    border: none; /* Elimina los bordes */
+    border-radius: 5px; /* Borde redondeado */
+    margin-top: -5px; /* Espacio en la parte superior del botón */
+    margin-bottom: 20px; /* Espacio en la parte inferior del botón */
+    cursor: pointer;
+}
+
+
+/*Navegacion */
+.menu {
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 10px;
+    left: 300px;
+    right: 300px;
+}
+
+.home-button {
+    margin-right: auto;
+    padding: 0;
+    text-decoration: none;
+}
+
+.home-button img {
+    border-radius: 0px;
+}
+
+/* ... Boton get qouete*/
+
+.nav-list li:last-child a {
+    border: 1px solid #122b3e;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #122b3e;
+}
+
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-list li {
+    margin-left: 10px;
+}
+
+.nav-list li:first-child {
+    margin-left: 0;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
